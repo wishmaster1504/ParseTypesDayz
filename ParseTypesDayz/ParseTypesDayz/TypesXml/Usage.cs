@@ -9,9 +9,8 @@ namespace ParseTypesDayz.TypesXml
     public class Usage
     {
         public string name;
-        public Usage(string _name) {
-        
-        name = _name;
+        public Usage(string _name) { 
+            name = _name;
         }
     }
 }

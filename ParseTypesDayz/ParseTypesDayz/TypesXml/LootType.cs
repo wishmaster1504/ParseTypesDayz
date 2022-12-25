@@ -24,5 +24,69 @@ namespace ParseTypesDayz.TypesXml
         public LootType() { }
 
 
+        public string CategoryToString()
+        {
+            string tmpStr = string.Empty;
+             
+
+            foreach (Category item in categories)
+            {
+                if (!string.IsNullOrEmpty(tmpStr))
+                {
+                    tmpStr += ", ";
+                }
+                
+                tmpStr += item.name;
+            }
+            
+             
+            return tmpStr;
+        }
+
+        public string UsagesToString()
+        {
+             
+            string tmpStr = string.Empty;
+
+
+            foreach (var item in usages)
+            {
+                if (!string.IsNullOrEmpty(tmpStr))
+                {
+                    tmpStr += ", ";
+                }
+                 
+                tmpStr += item.name;
+            }
+
+
+            return tmpStr;
+        }
+
+        public string ValuesToString() {
+
+            string tmpStr = string.Empty;
+
+
+            foreach (var item in values)
+            {
+                if (!string.IsNullOrEmpty(tmpStr))
+                {
+                    tmpStr += ", ";
+                }
+                 
+                tmpStr += item.name;
+            }
+
+
+            return tmpStr;
+        }
+
+        public string LootTypeToString()
+        {
+            return $"{name}; {nominal}; {lifetime}; {restock}; {min}; {quantmin}; {quantmax}; {cost}; {flags.FlagsToString()}; {CategoryToString()}; {UsagesToString()}; {ValuesToString()};";
+        }
     }
+
+
 }

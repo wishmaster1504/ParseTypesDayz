@@ -195,7 +195,7 @@ namespace ParseTypesDayz
                 // выведем список всех объектов
                 foreach (var item in types)
                 {
-                    listBox1.Items.Add(item.name);
+                    listBox1.Items.Add(item.LootTypeToString());
 
                 }
 

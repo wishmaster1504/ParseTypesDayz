@@ -8,7 +8,7 @@ namespace ParseTypesDayz.TypesXml
 {
     public class Value
     {
-        string name;
+        public string name;
 
         public Value(string _name) {
         name = _name;

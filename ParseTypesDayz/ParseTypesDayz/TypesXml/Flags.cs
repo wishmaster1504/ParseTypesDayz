@@ -15,7 +15,12 @@ namespace ParseTypesDayz.TypesXml
         public int crafted = 0;
         public int deloot = 0;
 
-        public Flags() { }  
+        public Flags() { }
 
+
+        public string FlagsToString()
+        {
+            return $"count_in_cargo = {count_in_cargo}; count_in_hoarder = {count_in_hoarder}; count_in_map = {count_in_map}; count_in_player = {count_in_player}; crafted = {crafted}; deloot = {deloot}";
+        }
     }
 }
