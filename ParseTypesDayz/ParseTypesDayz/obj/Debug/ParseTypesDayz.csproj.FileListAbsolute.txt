@@ -1,0 +1,11 @@
+G:\GitHub\ParseTypesDayz\ParseTypesDayz\ParseTypesDayz\bin\Debug\ParseTypesDayz.exe.config
+G:\GitHub\ParseTypesDayz\ParseTypesDayz\ParseTypesDayz\bin\Debug\ParseTypesDayz.exe
+G:\GitHub\ParseTypesDayz\ParseTypesDayz\ParseTypesDayz\bin\Debug\ParseTypesDayz.pdb
+G:\GitHub\ParseTypesDayz\ParseTypesDayz\ParseTypesDayz\obj\Debug\ParseTypesDayz.csproj.AssemblyReference.cache
+G:\GitHub\ParseTypesDayz\ParseTypesDayz\ParseTypesDayz\obj\Debug\ParseTypesDayz.csproj.SuggestedBindingRedirects.cache
+G:\GitHub\ParseTypesDayz\ParseTypesDayz\ParseTypesDayz\obj\Debug\ParseTypesDayz.Form1.resources
+G:\GitHub\ParseTypesDayz\ParseTypesDayz\ParseTypesDayz\obj\Debug\ParseTypesDayz.Properties.Resources.resources
+G:\GitHub\ParseTypesDayz\ParseTypesDayz\ParseTypesDayz\obj\Debug\ParseTypesDayz.csproj.GenerateResource.cache
+G:\GitHub\ParseTypesDayz\ParseTypesDayz\ParseTypesDayz\obj\Debug\ParseTypesDayz.csproj.CoreCompileInputs.cache
+G:\GitHub\ParseTypesDayz\ParseTypesDayz\ParseTypesDayz\obj\Debug\ParseTypesDayz.exe
+G:\GitHub\ParseTypesDayz\ParseTypesDayz\ParseTypesDayz\obj\Debug\ParseTypesDayz.pdb
