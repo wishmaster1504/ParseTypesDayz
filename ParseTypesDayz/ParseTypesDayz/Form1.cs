@@ -16,7 +16,7 @@ namespace ParseTypesDayz
     public partial class Form1 : Form
     {
         public string fileName;
-        List<LootType> types = new List<LootType>();
+        BindingList<LootType> types = new BindingList<LootType>();
 
         public Form1()
         {

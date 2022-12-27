@@ -9,3 +9,13 @@ G:\GitHub\ParseTypesDayz\ParseTypesDayz\ParseTypesDayz\obj\Debug\ParseTypesDayz.
 G:\GitHub\ParseTypesDayz\ParseTypesDayz\ParseTypesDayz\obj\Debug\ParseTypesDayz.csproj.CoreCompileInputs.cache
 G:\GitHub\ParseTypesDayz\ParseTypesDayz\ParseTypesDayz\obj\Debug\ParseTypesDayz.exe
 G:\GitHub\ParseTypesDayz\ParseTypesDayz\ParseTypesDayz\obj\Debug\ParseTypesDayz.pdb
+F:\GitHub\ParseTypesDayz\ParseTypesDayz\ParseTypesDayz\bin\Debug\ParseTypesDayz.exe.config
+F:\GitHub\ParseTypesDayz\ParseTypesDayz\ParseTypesDayz\bin\Debug\ParseTypesDayz.exe
+F:\GitHub\ParseTypesDayz\ParseTypesDayz\ParseTypesDayz\bin\Debug\ParseTypesDayz.pdb
+F:\GitHub\ParseTypesDayz\ParseTypesDayz\ParseTypesDayz\obj\Debug\ParseTypesDayz.csproj.AssemblyReference.cache
+F:\GitHub\ParseTypesDayz\ParseTypesDayz\ParseTypesDayz\obj\Debug\ParseTypesDayz.Form1.resources
+F:\GitHub\ParseTypesDayz\ParseTypesDayz\ParseTypesDayz\obj\Debug\ParseTypesDayz.Properties.Resources.resources
+F:\GitHub\ParseTypesDayz\ParseTypesDayz\ParseTypesDayz\obj\Debug\ParseTypesDayz.csproj.GenerateResource.cache
+F:\GitHub\ParseTypesDayz\ParseTypesDayz\ParseTypesDayz\obj\Debug\ParseTypesDayz.csproj.CoreCompileInputs.cache
+F:\GitHub\ParseTypesDayz\ParseTypesDayz\ParseTypesDayz\obj\Debug\ParseTypesDayz.exe
+F:\GitHub\ParseTypesDayz\ParseTypesDayz\ParseTypesDayz\obj\Debug\ParseTypesDayz.pdb
