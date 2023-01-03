@@ -193,14 +193,100 @@ namespace ParseTypesDayz
                  
 
                 // выведем список всех объектов
-                foreach (var item in types)
-                {
-                    listBox1.Items.Add(item.LootTypeToString());
+                //foreach (var item in types)
+                //{
+                //    listBox1.Items.Add(item.LootTypeToString());
 
-                }
+                //}
+
+                SetDataGridAllparams();
 
             } // if(xRoot != null)
         }
 
+        private void button4_Click(object sender, EventArgs e)
+        {
+            GetItemList();
+        }
+
+        private void GetItemList()
+        {
+            if (types.Count == 0) {
+                listBox1.Items.Add("Пустой список");
+                return;
+            }
+
+
+            DataTable dataTable = new DataTable();
+            dataTable.Columns.Add("ItemClass", typeof(string));
+
+            foreach (var item in types)
+            { 
+                dataTable.Rows.Add(item.name);
+            }
+               
+            dataGridView1.DataSource = dataTable;
+        }
+
+        private void SetDataGridAllparams()
+        {
+
+            if (types.Count == 0)
+            {
+                listBox1.Items.Add("Пустой список");
+                return;
+            }
+
+
+            DataTable dataTable = new DataTable();
+            dataTable.Columns.Add("name", typeof(string));
+            dataTable.Columns.Add("nominal", typeof(int));
+            dataTable.Columns.Add("lifetime",typeof(int));
+            dataTable.Columns.Add("restock", typeof(int));
+            dataTable.Columns.Add("min", typeof(int));
+            dataTable.Columns.Add("quantmin", typeof(int));
+            dataTable.Columns.Add("quantmax", typeof(int));
+            dataTable.Columns.Add("cost", typeof(int));
+            dataTable.Columns.Add("flags_count_in_cargo", typeof(int));
+            dataTable.Columns.Add("flags_count_in_hoarder", typeof(int));
+            dataTable.Columns.Add("flags_count_in_map", typeof(int));
+            dataTable.Columns.Add("flags_count_in_player", typeof(int));
+            dataTable.Columns.Add("flags_crafted", typeof(int));
+            dataTable.Columns.Add("flags_deloot", typeof(int));
+            dataTable.Columns.Add("categories", typeof(string));
+            dataTable.Columns.Add("usages", typeof(string));
+            dataTable.Columns.Add("values", typeof(string));
+
+
+            foreach (var item in types)
+            {
+                dataTable.Rows.Add(item.name,
+                    item.nominal,
+                    item.lifetime,
+                    item.restock,
+                    item.min,
+                    item.quantmin,
+                    item.quantmax,
+                    item.cost,
+                    item.flags.count_in_cargo,
+                    item.flags.count_in_hoarder,
+                    item.flags.count_in_map,
+                    item.flags.count_in_player,
+                    item.flags.crafted,
+                    item.flags.deloot,
+                    item.CategoryToString(),
+                    item.UsagesToString(),
+                    item.ValuesToString()
+                    );
+            }
+
+
+            dataGridView1.DataSource = dataTable;
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            SetDataGridAllparams();
+        }
     }
 }
